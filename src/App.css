@@ -1,0 +1,154 @@
+/* Navbar styles */
+.navbar {
+    font-size: 30px;
+    margin-left: auto;
+    padding: 20px;
+    background: #03045eff; /* Federal Blue */
+    border-radius: 20px;
+    display: flex; /* Use flexbox */
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* Remove bullet points from navbar links */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox */
+}
+
+/* Style navbar links */
+.navbar ul li {
+    margin-left: 20px; /* Add spacing between navbar links */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #bbd4ce;
+    padding: 10px 15px; /* Add padding to increase clickable area */
+    border-radius: 10px;
+    transition: background-color 0.3s ease; /* Add smooth transition effect */
+}
+
+/* Hover effect for navbar links */
+.navbar ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Add transparent background on hover */
+}
+
+/* Body styles */
+body {
+    background-image: linear-gradient(to right, #f9b4ab, #bbd4ce);
+}
+
+/* Header and footer styles */
+header,
+footer {
+    background: linear-gradient(to right, #264e70, #679186);
+    border-radius: 20px;
+    padding: 20px;
+    color: #fdebd3;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center align content horizontally */
+    align-items: center; /* Center align content vertically */
+}
+
+/* Remove bullets from footer */
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style footer links */
+footer a {
+    text-decoration: none;
+    color: #fdebd3;
+    margin: 0 10px; /* Add spacing between footer links */
+    padding: 10px 15px; /* Add padding to increase clickable area */
+    border-radius: 10px;
+    transition: background-color 0.3s ease; /* Add smooth transition effect */
+}
+
+/* Hover effect for footer links */
+footer a:hover {
+    background-color: #679186(255, 255, 255, 0.2); /* Add transparent background on hover */
+}
+
+
+/* Main content styles */
+main {
+    background: linear-gradient(#f9b4ab, #679186); 
+    border-radius: 20px;
+    padding: 20px;
+    color: #fdebd3;
+    text-align: center;
+}
+
+/* Link styles */
+a {
+    text-decoration: none;
+    color: #fdebd3;
+}
+
+/* Hover effect for links */
+a:hover {
+    color: #f9b4ab; 
+}
+
+/* Active link styles */
+.activeLink {
+    color: #f9b4ab; 
+}
+
+/* Main content heading styles */
+main h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Main content paragraph styles */
+main p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Form container styles */
+.formDiv {
+    border-radius: 10px;
+    background-color: #bbd4ce; 
+    padding: 20px;
+    color: #264e70;
+    margin-top: 20px;
+}
+
+/* Input and textarea styles */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #bbd4ce; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    width: 100%;
+    background-color: #264e70; 
+    color: #fdebd3;
+    padding: 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+    background-color: #f9b4ab; 
+}
