@@ -3,7 +3,7 @@
     font-size: 30px;
     margin-left: auto;
     padding: 20px;
-    background: #03045eff; /* Federal Blue */
+    background: #264e70; /* Dark Slate Blue */
     border-radius: 20px;
     display: flex; /* Use flexbox */
     align-items: center;
@@ -25,7 +25,7 @@
 
 .navbar ul li a {
     text-decoration: none;
-    color: #bbd4ce;
+    color: #fdebd3; /* Dutch White */
     padding: 10px 15px; /* Add padding to increase clickable area */
     border-radius: 10px;
     transition: background-color 0.3s ease; /* Add smooth transition effect */
@@ -33,7 +33,7 @@
 
 /* Hover effect for navbar links */
 .navbar ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Add transparent background on hover */
+    background-color: #679186; /* Asparagus */
 }
 
 /* Body styles */
@@ -63,7 +63,7 @@ footer ul {
 /* Style footer links */
 footer a {
     text-decoration: none;
-    color: #fdebd3;
+    color: #fdebd3; /* Dutch White */
     margin: 0 10px; /* Add spacing between footer links */
     padding: 10px 15px; /* Add padding to increase clickable area */
     border-radius: 10px;
@@ -72,9 +72,8 @@ footer a {
 
 /* Hover effect for footer links */
 footer a:hover {
-    background-color: #679186(255, 255, 255, 0.2); /* Add transparent background on hover */
+    background-color: #679186; /* Asparagus */
 }
-
 
 /* Main content styles */
 main {
@@ -88,17 +87,17 @@ main {
 /* Link styles */
 a {
     text-decoration: none;
-    color: #fdebd3;
+    color: #fdebd3; /* Dutch White */
 }
 
 /* Hover effect for links */
 a:hover {
-    color: #f9b4ab; 
+    color: #f9b4ab; /* Dark Salmon */
 }
 
 /* Active link styles */
 .activeLink {
-    color: #f9b4ab; 
+    color: #f9b4ab; /* Dark Salmon */
 }
 
 /* Main content heading styles */
@@ -118,7 +117,7 @@ main p {
     border-radius: 10px;
     background-color: #bbd4ce; 
     padding: 20px;
-    color: #264e70;
+    color: #264e70; /* Dark Slate Blue */
     margin-top: 20px;
 }
 
@@ -139,7 +138,7 @@ textarea {
 input[type="submit"] {
     width: 100%;
     background-color: #264e70; 
-    color: #fdebd3;
+    color: #fdebd3; /* Dutch White */
     padding: 14px;
     margin: 8px 0;
     border: none;
@@ -150,5 +149,5 @@ input[type="submit"] {
 
 /* Hover effect for submit button */
 input[type="submit"]:hover {
-    background-color: #f9b4ab; 
+    background-color: #f9b4ab; /* Dark Salmon */
 }
