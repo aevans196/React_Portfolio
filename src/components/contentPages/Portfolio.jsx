@@ -8,7 +8,7 @@ const projectList = [
     {
         title: 'Note Taker',
         description: 'This application is a note taking tool that uses an Express.js back end to save and retrieve note data from a JSON file.',
-        image: NoteTaker,
+        image: noteTaker,
         github: 'https://github.com/aevans196/Note_Taker.git',
         liveLink: 'https://note-taker-aevans-56511dacf34d.herokuapp.com/'
     },
